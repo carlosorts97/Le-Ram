@@ -5,6 +5,7 @@
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Sydsaddsdamfony\Component\Routing\Annotation\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
+HOLA
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
 mponent\Security\Http\Authentication\AuthenticationUtils;
