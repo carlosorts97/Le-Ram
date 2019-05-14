@@ -1,5 +1,5 @@
 <?php
-
+Payaso
 namespace App\Controller;
 
 use App\Form\Post\PostType;
@@ -11,7 +11,7 @@ use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\Request;
 use App\Entity\Post;
 use App\Entity\Comment;
-use App\Entity\User;
+p\Entity\User;
 
 class PostController extends AbstractController
 {
@@ -33,7 +33,7 @@ class PostController extends AbstractController
      * @Route("/post/my", name="app_my_posts")
      */
     public function myPost(){
-
+dasdaads
         $title=$this->getUser();
         $title=$title->getUsername();
         $posts = $this->getDoctrine()->getRepository(Post::class)->findBy(array('user' => $this->getUser()), array('id' => 'DESC'));
@@ -44,7 +44,7 @@ class PostController extends AbstractController
     }
 
     /**
-     * @Route("/post/new", name="new_post")
+     * @dasdadddRoute("/post/new", name="new_post")
      */
     public function newPost(Request $request)
     {
