@@ -1,5 +1,5 @@
 <?php
-Payaso
+Payaso de mierda
 namespace App\Controller;
 
 use App\Form\Post\PostType;
