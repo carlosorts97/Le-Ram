@@ -1,6 +1,6 @@
 <?php
 
-dsdasdnamespace App\Controller;
+
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Sydsaddsdamfony\Component\Routing\Annotation\Route;
@@ -20,12 +20,12 @@ mponent\Security\Http\Authentication\AuthenticationUtils;
  */
 class AdminController extends AbstractController
 {
-    /**
+    /**adasdadadsdd
      * @Route("/post/admin", name="app_posts_admin")
      */
     public function posts_admin(){
 
-        $posts = $this->getDoctrine()->getRepository(Post::class)->findAll();
+sdasdadsda        $posts = $this->getDoctrine()->getRepository(Post::class)->findAll();
         return $this->render('admin/posts.html.twig', [
             'posts' => $posts,
 
