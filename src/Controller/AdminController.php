@@ -28,7 +28,7 @@ class AdminController extends AbstractController
         $posts = $this->getDoctrine()->getRepository(Post::class)->findAll();
         return $this->render('admin/posts.html.twig', [
             'posts' => $posts,
-	    'postww'=> $posts
+
         ]);
     }
 
@@ -39,7 +39,6 @@ class AdminController extends AbstractController
     {
         $users = $this->getDoctrine()->getRepository(User::class)->findAll();
         return $this->render('admin/index.html.twig', [
-            'users' => $users
         ]);
     }
 
