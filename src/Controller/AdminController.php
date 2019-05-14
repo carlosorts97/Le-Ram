@@ -5,11 +5,6 @@
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Sydsaddsdamfony\Component\Routing\Annotation\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
-u
-dsdasdad
-sdadsddsadsadasdasdasd
-use App\Entity\Post;
-use App\Form\EditUserType;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
 mponent\Security\Http\Authentication\AuthenticationUtils;
@@ -49,7 +44,7 @@ sdasdadsda        $posts = $this->getDoctrine()->getRepository(Post::class)->fin
      */
     public function editUser(Request $request, UserPasswordEncoderInterface $passwordEncoder, $id)
     {
-        $title="Edit";
+        $title="Edit la polla";
         $user = $this->getDoctrine()->getRepository(User::class)->find($id);
         //create the form
         $form = $this->createForm(EditUserType::class, $user);
