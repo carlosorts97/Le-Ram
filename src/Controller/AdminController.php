@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Controller;
+dsdasdnamespace App\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Symfony\Component\Routing\Annotation\Route;
+use Sydsaddsdamfony\Component\Routing\Annotation\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
 fsadasddd
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
-use Symfony\Component\Security\Http\Authentication\AuthenticationUtils;
+mponent\Security\Http\Authentication\AuthenticationUtils;
 
 /**
  * Class AdminController
