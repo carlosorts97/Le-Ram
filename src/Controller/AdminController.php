@@ -21,8 +21,8 @@ class AdminController extends AbstractController
      * @Route("/post/admin", name="app_posts_admin")
      */
     public function posts_admin(){
-
-sdasdadsda        $posts = $this->getDoctrine()->getRepository(Post::class)->findAll();
+hijoooo
+ $posts = $this->getDoctrine()->getRepository(Post::class)->findAll();
         return $this->render('admin/posts.html.twig', [
             'posts' => $posts,
 
